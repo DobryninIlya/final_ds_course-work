@@ -1,12 +1,16 @@
+# Основные библиотеки
 streamlit==1.41.0
+streamlit-reveal-slides==0.1.0
 pandas==1.5.3
+numpy==1.24.3
 scikit-learn==1.2.0
 matplotlib==3.6.2
 seaborn==0.12.1
-ucimlrepo==0.0.3
 xgboost==1.7.6
-streamlit-reveal-slides==0.1.0
-numpy==1.24.3
-pandas==1.5.3
-sklearn
+ucimlrepo==0.0.3
 
+# Streamlit зависимости (могут потребоваться при ошибках)
+altair>=4.2.0
+pyarrow>=10.0
+protobuf>=4.0.0
+watchdog>=2.1.0
